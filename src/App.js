@@ -8,10 +8,22 @@ function App() {
       <header className="App-header">배롱이 PWA 닷컴</header>
       <section className="main">
         <h3>✨안녕하세요. 배롱이닷컴입니다✨</h3>
-        <p>오늘 11월 22일 김치의 날입니다.</p>
+        <p>
+          오늘 <strong> 11월 22일 김치의 날 </strong>입니다.
+        </p>
         <p>
           대한민국 법정기념일 중 특정 음식이 기념일의 주인공이 된 것은 최초의
           일입니다!
+        </p>
+        <p>
+          11월 22일을 꼽아 ‘김치의 날’로 지정한 이유는,
+          <br />
+          <strong>
+            김치의 다양한 재료 하나(1) 하나(1)가 모여 면역
+            증강·항산화·항비만·항암 등 22가지 이상의 효능을 만들어낸다는 상징적
+            의미
+          </strong>
+          <br />를 담았기 때문입니다.
         </p>
         <a
           className="App-link"
@@ -48,7 +60,7 @@ function App() {
       </section>
       <footer>
         <section>
-          <address>010-0001-0000</address>
+          <address>010-000-0000</address>
           <div>
             <ul>
               <li>이용약관</li>

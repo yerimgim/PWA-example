@@ -3,9 +3,6 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  position: relative;
-
-  /* justify-content: flex-end; */
 }
 
 .App-logo {
@@ -54,13 +51,12 @@ footer {
   justify-content: center;
   text-align: center;
   padding: 1rem 0;
-  position: absolute;
-  bottom: 0;
   width: 100vw;
 }
 
 footer section {
   width: 90vw;
+  text-align: center;
 }
 
 address {
@@ -98,5 +94,29 @@ span {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.snow-container {
+  display: flex;
+  justify-content: space-between;
+}
+.snow-flake {
+  color: coral;
+  animation: fall 3.5s linear infinite;
+}
+@keyframes fall {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 0.9;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(0, 70px);
+    opacity: 0;
   }
 }
