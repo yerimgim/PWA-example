@@ -5,7 +5,9 @@ function App() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">배롱이 PWA 닷컴</header>
+      <header className="App-header">
+        <h1>배롱이 PWA 닷컴</h1>
+      </header>
       <section className="main">
         <h3>✨안녕하세요. 배롱이닷컴입니다✨</h3>
         <p>
